@@ -28,3 +28,41 @@ console.log(bigComputerTalk);
 
 
 console.log(`${deepT} and ${hal} have both confirmed that ${aiNotYet} ${yetUnknown}`);
+
+let cPi = 3.14159;
+let cLightSpeed = 299792458;
+let temp = cLightSpeed;
+cLightSpeed = cPi; cPi= temp;
+
+console.log(`cPi is now = ${cPi}`)
+console.log(`cLightSpeed is now = ${cLightSpeed}`)
+
+// primitive variables data types bit
+
+let number = 1;
+console.log(number);
+
+let mints = 10;
+let chocolates = 5;
+let sweets = mints + chocolates;
+
+console.log(sweets)
+
+//see above for myName declaration as const
+console.log(myName);
+
+let firstName = "Dale";
+let lastName = "Simkin";
+// let fullName = firstName + " " + lastName;  - or
+let fullName = `${firstName} ${lastName}`
+
+console.log(fullName);
+
+console.log(`${firstName} is ${firstName.length} characters long`)
+
+let isTrue = true;
+console.log(`isTrue is ${isTrue}`)
+let isFalse = false;
+console.log(`isFalse is ${isFalse}`)
+ 
+console.log(`type of isTrue is ` + typeof(isTrue))
